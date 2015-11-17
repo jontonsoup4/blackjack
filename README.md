@@ -3,7 +3,7 @@
 
 # Example scripts
 ### Using `battle_bot`
-Automated playing using `battle_bot`. `num_cycles` determines the number of full games to play and `num_decks` determines the number of decks used in each cycle. This script is running 1000 cycles using 6 decks
+Automated playing using `battle_bot`. `num_cycles` determines the number of full games to play and `num_decks` determines the number of decks used in each cycle. This script is running 1000 cycles using 6 decks.
 ```
 from blackjack import Blackjack
 
@@ -47,6 +47,7 @@ Win/Loss = 0.91
 ```
 
 ## Playing manually:
+Play a normal game using 4 decks and shuffling 6 times on startup.
 ```
 from blackjack import Blackjack
 
